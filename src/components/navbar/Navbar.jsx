@@ -1,5 +1,6 @@
 import "./navbar.scss"
-import {Person, Mail} from "@material-ui/icons"
+ import PersonIcon from "@material-ui/icons/Person";
+ import MailIcon from "@material-ui/icons/Mail";
 export default function Navbar({menuOpen, setMenuOpen}) {
     return (
         <div className={"navbar " + ( menuOpen && "active")}>
@@ -7,11 +8,11 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                 <div className="left">
                     <a href="#intro" className="logo">Lakehal.</a>
                     <div className="itemContainer"> 
-                    <Person className="icon"/>
+                    <PersonIcon className="icon"/>
                     <span>+1 407 910 3352</span>
                     </div>
                     <div className="itemContainer"> 
-                    <Mail className="icon"/>
+                    <MailIcon className="icon"/>
                     <span>contact@khaledlakehal.com</span>
                     </div>
                 </div>
