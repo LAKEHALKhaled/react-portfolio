@@ -21,21 +21,21 @@ ul{
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
     .item{
-        width: 220px;
-        height: 150px;
+        width: 260px;
+        height: 360px;
         border-radius: 20px;
         border: 1px solid lightgray;
-        margin: 10px 20px;
+        margin: 70px 10px;
         display: flex;
-        align-items: center;
+        align-items:center;
         justify-content: center;
         color: white;
         position: relative;
-        transition: all .5 ease;
+        transition: all 1 ease;
         cursor: pointer;
 
         h3{

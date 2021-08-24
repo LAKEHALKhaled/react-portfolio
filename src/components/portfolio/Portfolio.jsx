@@ -1,16 +1,18 @@
 import './portfolio.scss';
 import { useState, useEffect } from 'react';
-import calories from '../../img/calories.jpeg';
+// import calories from '../../img/calories.jpeg';
 import PortfolioList from '../portfolioList/PortfolioList';
-
+import{
+    FrontEnd,
+    BackEnd,
+    FullStack,
+    
+} from "../../data";
 export default function Portfolio() {
 
-    const[selected, setSelected] = useState("featured")
+    const[selected, setSelected] = useState("front");
+    const[data, setData] = useState([]);
     const list =[
-        {
-            id:"featured",
-            title:"Featured",
-        },
         {
             id:"front",
             title:"Front End",
@@ -23,11 +25,23 @@ export default function Portfolio() {
             id:"full",
             title:"Full Stack",
         },
-        {
-            id:"design",
-            title:"Design",
-        },
     ]
+    useEffect(()=>{
+        switch (selected) {
+                case "front":
+                setData(FrontEnd);
+                break;
+                case "back":
+                    setData(BackEnd);
+                break;
+                case "full":
+                setData(FullStack);
+                break;
+            default:
+                setData(FrontEnd);
+                break;
+        }
+    },[selected])
     return (
         <div className="portfolio" id="portfolio"> 
             <h1>Portfolio</h1>
@@ -42,26 +56,12 @@ export default function Portfolio() {
                 ))}
             </ul>
             <div className="container">
+                {data.map((d)=>(
                 <div className="item">
-                    <img src={calories} alt="" />
-                    <h3>Calorie-Hunter</h3>
-                </div>
-                <div className="item">
-                    <img src={calories} alt="" />
-                    <h3>Calorie-Hunter</h3>
-                </div>
-                <div className="item">
-                    <img src={calories} alt="" />
-                    <h3>Calorie-Hunter</h3>
-                </div>
-                <div className="item">
-                    <img src={calories} alt="" />
-                    <h3>Calorie-Hunter</h3>
-                </div>
-                <div className="item">
-                    <img src={calories} alt="" />
-                    <h3>Calorie-Hunter</h3>
-                </div>
+                    <img src={d.img} alt="" />
+                    <h3>{d.title}</h3>
+                </div>))}
+                
             </div>
         </div>
     )
