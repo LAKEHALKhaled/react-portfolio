@@ -1,6 +1,8 @@
 import "./navbar.scss"
  import PersonIcon from "@material-ui/icons/Person";
  import MailIcon from "@material-ui/icons/Mail";
+ import LinkedInIcon from '@material-ui/icons/LinkedIn';
+ import GitHubIcon from '@material-ui/icons/GitHub';
 export default function Navbar({menuOpen, setMenuOpen}) {
     return (
         <div className={"navbar " + ( menuOpen && "active")}>
@@ -15,6 +17,19 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                     <MailIcon className="icon"/>
                     <span>contact@khaledlakehal.com</span>
                     </div>
+                    <a href="https://www.linkedin.com/in/khaled-lakehal-7a6850169/" target="_blank">
+                    <div className="itemContainer"> 
+                    <LinkedInIcon className="icon"/>
+                    <span>LinkedIn</span>
+                    </div>
+                    </a>
+                    <a href="https://github.com/LAKEHALKhaled" target="_blank">
+                    <div className="itemContainer"> 
+                    <GitHubIcon className="icon"/>
+                    <span>GitHub</span>
+                    </div>
+                    </a>
+                    
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
