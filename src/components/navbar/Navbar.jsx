@@ -3,6 +3,7 @@ import "./navbar.scss"
  import MailIcon from "@material-ui/icons/Mail";
  import LinkedInIcon from '@material-ui/icons/LinkedIn';
  import GitHubIcon from '@material-ui/icons/GitHub';
+ import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
 export default function Navbar({menuOpen, setMenuOpen}) {
     return (
         <div className={"navbar " + ( menuOpen && "active")}>
@@ -27,6 +28,12 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                     <div className="itemContainer"> 
                     <GitHubIcon className="icon"/>
                     <span>GitHub</span>
+                    </div>
+                    </a>
+                    <a href="https://docs.google.com/document/d/1QBEkqMYHYP_K0B2SbZFanadK_iCMYvZEkqZ9eZ2TPWU/edit?usp=sharing" target="_blank">
+                    <div className="itemContainer"> 
+                    <DescriptionRoundedIcon className="icon"/>
+                    <span>Resume</span>
                     </div>
                     </a>
                     

@@ -10,8 +10,8 @@
     z-index: 2;
     transition: all 1s ease;
     display: flex;
-    align-items:center;
     justify-content: center;
+    
 
     &.active{
         right: 0;
@@ -19,7 +19,11 @@
     }
     
     ul{
+
+        height: 100%;
         display: flex;
+        align-items:center;
+        justify-content: center;
         flex-direction: column;
         margin:0;
         padding: 0;
