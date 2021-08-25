@@ -15,7 +15,7 @@ export default function Testimonials() {
         },
         {
           id: 2,
-          name: "John  Dismore",
+          name: "someone",
           title: "Co-Founder of DELKA",
           img:
             "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -26,7 +26,7 @@ export default function Testimonials() {
         },
         {
           id: 3,
-          name: "Dan Bovdosd",
+          name: "someone",
           title: "CEO of ALBI",
           img:
             "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
