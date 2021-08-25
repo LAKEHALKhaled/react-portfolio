@@ -7,11 +7,16 @@
     justify-content: center;
     position: relative;
 
-
+    .title{
+        position: absolute;
+        top:20px;
+        color: white;
+    }
     .arrow{
         height: 50px;
         position: absolute;
         cursor: pointer; 
+        
 
         @include mobile{
             display: none;
@@ -47,7 +52,7 @@
             .item{
                 width: 1000px;
                 height: 500px;
-                background-color: white;
+                background-color: black;
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
@@ -61,6 +66,7 @@
                 }
 
                 .left{
+                    
                     flex: 4;
                     height: 80%;
                     display: flex;
@@ -72,13 +78,13 @@
                         height: 70%;
                         flex-direction: column;
                         justify-content: space-between;
-                        color: black;
+                        color: white;
+                        margin-left: 30px;
 
                         .imgContainer{
                             width: 40px;
                             height: 40px;
                             border-radius: 50%;
-                            background-color: rgb(218, 153, 129);
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -89,13 +95,16 @@
                             }
 
                             img{
-                                width: 25px;
+                                width: 40px;
+                                height: 100%;
+                                
                                 @include mobile{
                                     width: 15px;
                                 }
                             };
                         }
                         h2{
+                            margin-top: 20px;
                             font-size: 20px;
                             @include mobile{
                                 font-size: 13px;
@@ -103,11 +112,13 @@
                         }
                         p{
                             font-size: 13px;
+                            margin-top: 10px;
                             @include mobile{
                                 display: none;
                             }
                         }
                         span{
+                            margin-top: 20px;
                             font-size: 12px;
                             font-weight: 600;
                             text-decoration: underline;
@@ -125,8 +136,9 @@
                     overflow: hidden;
 
                     img{
-                        width: 400px;
-                        transform:rotate(-10deg);
+                        width: 500px;
+                        border-radius: 50%;
+                        transform:rotate(0deg);
                         
                     }
                     

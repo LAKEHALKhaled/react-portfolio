@@ -18,19 +18,19 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                     <MailIcon className="icon"/>
                     <span>contact@khaledlakehal.com</span>
                     </div>
-                    <a href="https://www.linkedin.com/in/khaled-lakehal-7a6850169/" target="_blank">
+                    <a href="https://www.linkedin.com/in/khaled-lakehal-7a6850169/" rel="noreferrer" target="_blank">
                     <div className="itemContainer"> 
                     <LinkedInIcon className="icon"/>
                     <span>LinkedIn</span>
                     </div>
                     </a>
-                    <a href="https://github.com/LAKEHALKhaled" target="_blank">
+                    <a href="https://github.com/LAKEHALKhaled" rel="noreferrer" target="_blank">
                     <div className="itemContainer"> 
                     <GitHubIcon className="icon"/>
                     <span>GitHub</span>
                     </div>
                     </a>
-                    <a href="https://docs.google.com/document/d/1QBEkqMYHYP_K0B2SbZFanadK_iCMYvZEkqZ9eZ2TPWU/edit?usp=sharing" target="_blank">
+                    <a href="https://docs.google.com/document/d/1QBEkqMYHYP_K0B2SbZFanadK_iCMYvZEkqZ9eZ2TPWU/edit?usp=sharing" rel="noreferrer" target="_blank">
                     <div className="itemContainer"> 
                     <DescriptionRoundedIcon className="icon"/>
                     <span>Resume</span>
