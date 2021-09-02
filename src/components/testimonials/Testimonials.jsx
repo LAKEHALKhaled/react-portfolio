@@ -6,34 +6,34 @@ export default function Testimonials() {
         {
           id: 1,
           name: "Mohammed Fellak",
-          title: "Senior Developer at Celsius",
+          title: "Senior Developer at Celsius Network",
           img:
             "https://media-exp1.licdn.com/dms/image/C4E03AQF50VlnmROUIQ/profile-displayphoto-shrink_200_200/0/1624468840360?e=1635379200&v=beta&t=OlbFjgz7P1cpnXAfmaeYFLjviqQBNdvNQdKsi4FsLxY",
           link: "https://www.linkedin.com/in/systemdz/",
           desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
+            "It’s without hesitation that I recommend Khaled if you are looking for a software engineer who learn fast and can solve complicated problems.",
         },
-        {
-          id: 2,
-          name: "someone",
-          title: "Co-Founder of DELKA",
-          img:
-            "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          link: "https://www.linkedin.com/in/systemdz/",
-          desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-          featured: true,
-        },
-        {
-          id: 3,
-          name: "someone",
-          title: "CEO of ALBI",
-          img:
-            "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-          link: "https://www.linkedin.com/in/systemdz/",
-          desc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
-        },
+        // {
+        //   id: 2,
+        //   name: "someone",
+        //   title: "Co-Founder of DELKA",
+        //   img:
+        //     "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //   link: "https://www.linkedin.com/in/systemdz/",
+        //   desc:
+        //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        //   featured: true,
+        // },
+        // {
+        //   id: 3,
+        //   name: "someone",
+        //   title: "CEO of ALBI",
+        //   img:
+        //     "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        //   link: "https://www.linkedin.com/in/systemdz/",
+        //   desc:
+        //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        // },
       ];
     return (
         <div className ="testimonials" id="testimonials">

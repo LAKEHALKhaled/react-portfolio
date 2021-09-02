@@ -8,23 +8,25 @@ const [currentSlide, setCurrentSlide] = useState(0)
         {
             id: "1",
             // icon: {GitHubIcon},
-            title: "Life Manager",
-            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing" ,
+            title: "Life Manager (In progress repo available)",
+            link: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
+            desc: "A platform where people can have a great personal development progress" ,
             img: "https://i1.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2017/03/Operations-Manager.jpg?fit=740%2C516&ssl=1",
          },
          {
         id: "2",
         // icon: {GitHubIcon},
         title: "MERN Restaurant Website",
-        desc: "Lorem, ipsum dolor sit amet consectetur adipisicing" ,
+        desc: "A template website, can be easy changed to any kind of E-comerce restaurant advanced website" ,
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34qSmH7p3itrhdczeCXBko-etbvkjyHmG1Q&usqp=CAU",
         },
             
         {
     id: "3",
     // icon: {GitHubIcon},
-    title: "Delivry App Clone",
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing" ,
+    title: "delivery App Clone",
+    desc: "A clone of a delivery app only for local restaurant",
+    
     img: "http://www.restaurantconsultingfirm.com/blog/wp-content/uploads/2016/09/Food-Delivery-App.jpg",
         },
     ]
@@ -43,7 +45,10 @@ const [currentSlide, setCurrentSlide] = useState(0)
                         <div className="left">
                         <div className="leftContainer">
                             {/* <div className="imgContainer"> */}
+                            <a href={d.link} target="_blank" rel="noreferrer">
                             <GitHubIcon className="imgContainer" />
+                            </a>
+                            
                             {/* </div> */}
                             <h2>{d.title}</h2>
                             <p>
