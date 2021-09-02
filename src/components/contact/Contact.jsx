@@ -35,10 +35,10 @@ export default function Contact() {
 
 
             <form onSubmit ={sendEmail}>
-        <input type="text" placeholder="Name" name="name"/>
-        <input type="text" placeholder="Email" name="email"/>
-        <input type="text" placeholder="Subject" name="subject"/>
-        <textarea placeholder="Message" name="message"></textarea>
+        <input type="text" placeholder="Name" name="name" required/>
+        <input type="email" placeholder="Email" name="email" required/>
+        <input type="text" placeholder="Subject" name="subject" required/>
+        <textarea placeholder="Message" name="message" required></textarea>
         <button type="submit">Send</button>
         {message && <span>Thank you, I will get back to you soon.</span> }
             </form>
