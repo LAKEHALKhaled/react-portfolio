@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2f99c89.chunk.css",
-    "main.js": "/static/js/main.6ee419b4.chunk.js",
-    "main.js.map": "/static/js/main.6ee419b4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.872b2f22.js",
-    "runtime-main.js.map": "/static/js/runtime-main.872b2f22.js.map",
-    "static/js/2.675f99d0.chunk.js": "/static/js/2.675f99d0.chunk.js",
-    "static/js/2.675f99d0.chunk.js.map": "/static/js/2.675f99d0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.d2f99c89.chunk.css.map": "/static/css/main.d2f99c89.chunk.css.map",
-    "static/js/2.675f99d0.chunk.js.LICENSE.txt": "/static/js/2.675f99d0.chunk.js.LICENSE.txt",
-    "static/media/khaled.2b7900d7.png": "/static/media/khaled.2b7900d7.png",
-    "static/media/right-arrow.4a3b0519.png": "/static/media/right-arrow.4a3b0519.png",
-    "static/media/shake.c7165a1f.svg": "/static/media/shake.c7165a1f.svg"
+    "main.css": "/react-portfolio/static/css/main.d2f99c89.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.6ee419b4.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.6ee419b4.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.675f99d0.chunk.js": "/react-portfolio/static/js/2.675f99d0.chunk.js",
+    "static/js/2.675f99d0.chunk.js.map": "/react-portfolio/static/js/2.675f99d0.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.d2f99c89.chunk.css.map": "/react-portfolio/static/css/main.d2f99c89.chunk.css.map",
+    "static/js/2.675f99d0.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.675f99d0.chunk.js.LICENSE.txt",
+    "static/media/khaled.2b7900d7.png": "/react-portfolio/static/media/khaled.2b7900d7.png",
+    "static/media/right-arrow.4a3b0519.png": "/react-portfolio/static/media/right-arrow.4a3b0519.png",
+    "static/media/shake.c7165a1f.svg": "/react-portfolio/static/media/shake.c7165a1f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
