@@ -1,6 +1,6 @@
 import './testimonials.scss'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
- import rArrow from '../../img/right-arrow.png';
+//  import rArrow from '../../img/right-arrow.png';
 export default function Testimonials() {
     const data = [
         {
@@ -42,7 +42,7 @@ export default function Testimonials() {
                 {data.map(d=>(
                 <div className={d.featured ? "card featured" : "card"}>
                     <div className="top">
-                        <img src={rArrow} className="left" alt="" />
+                        <img src="https://i.ibb.co/zN9XnPF/right-arrow.png" className="left" alt="" />
                         <img src={d.img} className="user" alt="" />
                         {/* <img src={d.icon} className="right" alt="" /> */}
                         <a href={d.link} target="_blank" rel="noreferrer"><LinkedInIcon className="right"/></a>

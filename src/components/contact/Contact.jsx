@@ -1,6 +1,6 @@
 import './contact.scss'
 import { useState } from 'react';
-import shake from "../../img/shake.svg";
+// import shake from "../../img/shake.svg";
 import emailjs from "emailjs-com"
 
 
@@ -28,7 +28,7 @@ export default function Contact() {
     return (
         <div className ="contact" id="contact">
             <div className="left">
-            <img src={shake} alt="" />
+            <img src="https://i.ibb.co/P1cXZXH/shake.jpg" alt="" />
             </div>
             <div className="right">
             <h2>Contact Me</h2>
