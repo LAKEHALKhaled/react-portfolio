@@ -30,7 +30,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
                     <span>GitHub</span>
                     </div>
                     </a>
-                    <a href="https://docs.google.com/document/d/1QBEkqMYHYP_K0B2SbZFanadK_iCMYvZEkqZ9eZ2TPWU/edit?usp=sharing" rel="noreferrer" target="_blank">
+                    <a href="https://drive.google.com/file/d/1qN7XdV-i_uZh-SsSh559q94p59mTZ9DS/view?usp=sharing" rel="noreferrer" target="_blank">
                     <div className="itemContainer"> 
                     <DescriptionRoundedIcon className="icon"/>
                     <span>Resume</span>
