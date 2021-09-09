@@ -1,5 +1,7 @@
 import './portfolio.scss';
 import { useState, useEffect } from 'react';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LanguageIcon from '@material-ui/icons/Language';
 // import calories from '../../img/calories.jpeg';
 import PortfolioList from '../portfolioList/PortfolioList';
 import{
@@ -61,6 +63,15 @@ export default function Portfolio() {
                 <div className="item">
                     <img src={d.img} alt="" />
                     <h3>{d.title}</h3>
+                    
+                </div>
+                <div className="desc">
+                    <div>
+                    <a href={d.git} target="_blank" rel="noreferrer">
+                    <GitHubIcon className="link"/>
+                    </a>
+                    {d.desc}
+                    </div>
                 </div>
                 </a>))}
                 

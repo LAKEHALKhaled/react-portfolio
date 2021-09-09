@@ -8,8 +8,9 @@ const [currentSlide, setCurrentSlide] = useState(0)
         {
             id: "1",
             // icon: {GitHubIcon},
-            title: "Life Manager (In progress repo available)",
-            link: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
+            title: "Life Manager (Repo available)",
+            link: "https://mighty-inlet-79534.herokuapp.com/",
+            git: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
             desc: "A platform where people can have a great personal development progress" ,
             img: "https://i1.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2017/03/Operations-Manager.jpg?fit=740%2C516&ssl=1",
          },
@@ -45,21 +46,25 @@ const [currentSlide, setCurrentSlide] = useState(0)
                         <div className="left">
                         <div className="leftContainer">
                             {/* <div className="imgContainer"> */}
-                            <a href={d.link} target="_blank" rel="noreferrer">
+                            <a href={d.git} target="_blank" rel="noreferrer">
                             <GitHubIcon className="imgContainer" />
                             </a>
                             
                             {/* </div> */}
                             <h2>{d.title}</h2>
-                            <p>
+                            <div className="desc">
                                 {d.desc}
-                            </p>
+                            </div>
                             {/* <span>Projects</span> */}
                         </div>
                         </div>
+                        
                         <div className="right">
+                          <a href={d.link} target="_blank" rel="noreferrer">
                             <img src={d.img} alt="" />
+                            </a>
                         </div>
+                      
                     </div>
                     
                 </div>))}
