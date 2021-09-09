@@ -70,7 +70,8 @@ export default function Portfolio() {
                     <a href={d.git} target="_blank" rel="noreferrer">
                     <GitHubIcon className="link"/>
                     </a>
-                    {d.desc}
+                    <div className="gitDesc" >{d.desc}</div>
+                    
                     </div>
                 </div>
                 </a>))}

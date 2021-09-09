@@ -91,16 +91,31 @@ ul{
         margin-top: 20px;
         width: 230px;
         margin:10px;
-        height: auto;
+        height: 160px;
         line-height: 1.4;
+
+        .gitDesc{
+            margin: 0 5px;
+            text-decoration: none;
+        }
         
+        &:hover{
+        background-color: white;
+        color:black;
+        border: solid 2px black;
+        text-decoration: none;
+        }
 
         .link{
-            color: white;
+            color: black;
             font-size: 30px;
             margin:5px;
         }
-        
+        &:hover{
+            color:black;
+            background-color: white;
+            text-decoration: none;
+        }
 
 
         @include mobile{

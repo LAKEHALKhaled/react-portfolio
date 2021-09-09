@@ -56,7 +56,7 @@ export const FrontEnd = [
       title: "Team Porfil Generator",
       img:"https://cdn.dribbble.com/users/504740/screenshots/9915986/media/3fa3688e394b04d03df9de70e9a89c65.jpg?compress=1&resize=400x300",
       git:"https://github.com/LAKEHALKhaled/Team-Profile-Generator-Object-Oriented-Programming-",
-      desc:"Node.js command-line application that takes in information about employees in a software engineering team, then generates an HTML webpage",
+      desc:"Node.js command-line application that takes employees information, then generates an HTML webpage",
     },
     {
         link:"https://github.com/LAKEHALKhaled/README-Generator",

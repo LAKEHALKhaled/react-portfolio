@@ -8,7 +8,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
         {
             id: "1",
             // icon: {GitHubIcon},
-            title: "Life Manager (Repo available)",
+            title: "Life Manager (70%)",
             link: "https://mighty-inlet-79534.herokuapp.com/",
             git: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
             desc: "A platform where people can have a great personal development progress" ,
@@ -17,7 +17,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
          {
         id: "2",
         // icon: {GitHubIcon},
-        title: "MERN Restaurant Website",
+        title: "MERN Restaurant Website (5%)",
         desc: "A template website, can be easy changed to any kind of E-comerce restaurant advanced website" ,
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34qSmH7p3itrhdczeCXBko-etbvkjyHmG1Q&usqp=CAU",
         },
@@ -25,7 +25,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
         {
     id: "3",
     // icon: {GitHubIcon},
-    title: "delivery App Clone",
+    title: "delivery App Clone (5%)",
     desc: "A clone of a delivery app only for local restaurant",
     
     img: "http://www.restaurantconsultingfirm.com/blog/wp-content/uploads/2016/09/Food-Delivery-App.jpg",
@@ -38,7 +38,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
 
     return (
         <div className="works" id="works">
-            <h1 className="title">Coming soon</h1>
+            <h1 className="title">Current work</h1>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) =>(
                 <div className="container">
@@ -58,13 +58,13 @@ const [currentSlide, setCurrentSlide] = useState(0)
                             {/* <span>Projects</span> */}
                         </div>
                         </div>
-                        
+                        <a href={d.link} target="_blank" rel="noreferrer">
                         <div className="right">
-                          <a href={d.link} target="_blank" rel="noreferrer">
+                           
                             <img src={d.img} alt="" />
-                            </a>
-                        </div>
                       
+                        </div>
+                        </a>
                     </div>
                     
                 </div>))}
