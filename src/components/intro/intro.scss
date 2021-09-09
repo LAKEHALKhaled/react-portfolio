@@ -50,10 +50,13 @@
                 align-items: center;
             }
             .brand{
+                padding: 10px;
+                border-radius: 10px;
+                background-color: rgb(255, 169, 169);
                 margin-top: 20px;
                 width: 70%;
-                height: 30%;
-                font-size:15px;
+                height: 12%;
+                line-height: 1.4;
             }
             h1{
                 font-size:60px;
