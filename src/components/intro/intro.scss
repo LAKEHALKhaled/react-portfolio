@@ -48,10 +48,13 @@
             @include mobile{
                 padding-left: 0;
                 align-items: center;
-                
-
             }
-
+            .brand{
+                margin-top: 20px;
+                width: 70%;
+                height: 30%;
+                font-size:15px;
+            }
             h1{
                 font-size:60px;
                 margin:10px 0;
