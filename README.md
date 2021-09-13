@@ -9,6 +9,6 @@ Portfolio Page is a place when people can get an Idea about you, this is a React
 
 ![Image of portfolio page](./public/profile.png)
 
-### link to depolyed application
+#### link to depolyed application
 
 https://lakehalkhaled.github.io/react-portfolio/
