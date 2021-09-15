@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .works{
-    background-color: crimson;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,15 @@
         position: absolute;
         top:20px;
         color: white;
+        
+       
     }
+    h4{
+        position: absolute;
+        top:70px;
+        color: white;
+    }
+
     .arrow{
         height: 50px;
         position: absolute;
@@ -52,7 +60,7 @@
             .item{
                 width: 1000px;
                 height: 500px;
-                background-color: black;
+                background-color: white;
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
@@ -78,8 +86,8 @@
                         height: 70%;
                         flex-direction: column;
                         justify-content: space-between;
-                        color: white;
-                        margin-left: 30px;
+                        color: black;
+                        margin-left: 20px;
 
 
 
@@ -130,7 +138,7 @@
                             font-size: 13px;
                             margin-top: 10px;
                             @include mobile{
-                                display: none;
+                            display: none;
                             }
                         }
                         span{
@@ -153,7 +161,6 @@
 
                     img{
                         width: 500px;
-                        border-radius: 50%;
                         transform:rotate(0deg);
                         
                     }

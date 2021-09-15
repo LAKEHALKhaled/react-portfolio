@@ -86,25 +86,16 @@ ul{
     .desc{
         padding: 10px;
         border-radius: 10px;
-        background-color: black;
-        color:white;
         margin-top: 20px;
         width: 230px;
         margin:10px;
         height: 160px;
         line-height: 1.4;
-
-        .gitDesc{
-            margin: 0 5px;
-            text-decoration: none;
-        }
-        
-        &:hover{
+        margin: 0 5px;
         background-color: white;
         color:black;
         border: solid 2px black;
-        text-decoration: none;
-        }
+
 
         .link{
             color: black;

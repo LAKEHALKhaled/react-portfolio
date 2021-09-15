@@ -38,7 +38,8 @@ const [currentSlide, setCurrentSlide] = useState(0)
 
     return (
         <div className="works" id="works">
-            <h1 className="title">Current work</h1>
+            <h1 className="title">Work</h1>
+            <h4>Current and future projects</h4>
             <div className="slider" style={{transform: `translateX(-${currentSlide * 100}vw)`}}>
                 {data.map((d) =>(
                 <div className="container">
