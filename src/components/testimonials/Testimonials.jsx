@@ -13,17 +13,17 @@ export default function Testimonials() {
           desc:
             "It’s without hesitation that I recommend Khaled if you are looking for a software engineer who learn fast and can solve complicated problems.",
         },
-        // {
-        //   id: 2,
-        //   name: "someone",
-        //   title: "Co-Founder of DELKA",
-        //   img:
-        //     "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-        //   link: "https://www.linkedin.com/in/systemdz/",
-        //   desc:
-        //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
+        {
+          id: 2,
+          name: "Daniel Rosenbaum",
+          title: "Full Stack Developer at Trilogy Education",
+          img:
+            "https://media-exp1.licdn.com/dms/image/C4E03AQFVozn30QRb5Q/profile-displayphoto-shrink_400_400/0/1567733532530?e=1637798400&v=beta&t=by7UZkEUClCdIJDN9_qXHf3u0rJzzb42vGKOFfi2S-0",
+          link: "https://www.linkedin.com/in/daniel-j-rosenbaum/",
+          desc:
+            "Khaled is extremely passionate about his education and career in development. He is driven, ambitious, and is one of the most multi-talented people I have ever met (He speaks AT LEAST three languages and picks things up INCREDIBLY fast). He is a team player and will be an asset to any employer smart enough to add him to their organization.",
         //   featured: true,
-        // },
+        },
         // {
         //   id: 3,
         //   name: "someone",
