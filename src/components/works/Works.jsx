@@ -9,6 +9,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
             id: "1",
             // icon: {GitHubIcon},
             title: "Life Manager (70%)",
+            tech: "Node.js Express.js Mongoose React Material-UI (JWT, ApolloServer, GraphQL) ",
             link: "https://mighty-inlet-79534.herokuapp.com/",
             git: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
             desc: "A platform where people can have a great personal development progress" ,
@@ -52,7 +53,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
                             </a>
                             
                             {/* </div> */}
-                            <h2>{d.title}</h2>
+                            <h2>{d.title} <hr/><br/> {d.tech}</h2>
                             <div className="desc">
                                 {d.desc}
                             </div>
