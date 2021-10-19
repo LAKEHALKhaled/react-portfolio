@@ -1,7 +1,7 @@
 import './portfolio.scss';
 import { useState, useEffect } from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LanguageIcon from '@material-ui/icons/Language';
+// import LanguageIcon from '@material-ui/icons/Language';
 // import calories from '../../img/calories.jpeg';
 import PortfolioList from '../portfolioList/PortfolioList';
 import{
