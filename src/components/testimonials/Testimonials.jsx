@@ -8,7 +8,7 @@ export default function Testimonials() {
           name: "Mohammed Fellak",
           title: "Senior Developer at Celsius Network",
           img:
-            "https://media-exp1.licdn.com/dms/image/C4E03AQF50VlnmROUIQ/profile-displayphoto-shrink_200_200/0/1624468840360?e=1635379200&v=beta&t=OlbFjgz7P1cpnXAfmaeYFLjviqQBNdvNQdKsi4FsLxY",
+            "https://media-exp1.licdn.com/dms/image/C4E03AQF50VlnmROUIQ/profile-displayphoto-shrink_800_800/0/1624468840360?e=1643241600&v=beta&t=aqArj7zRomztqPTjTkb-O2NXOq52VBVYmuECx_9tvhU",
           link: "https://www.linkedin.com/in/systemdz/",
           desc:
             "It’s without hesitation that I recommend Khaled if you are looking for a software engineer who learn fast and can solve complicated problems.",

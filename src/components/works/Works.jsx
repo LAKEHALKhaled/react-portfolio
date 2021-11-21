@@ -8,7 +8,7 @@ const [currentSlide, setCurrentSlide] = useState(0)
         {
             id: "1",
             // icon: {GitHubIcon},
-            title: "Life Manager (70%)",
+            title: "Strategic Planner (80%)",
             tech: "Node.js Express.js Mongoose React Material-UI (JWT, ApolloServer, GraphQL) ",
             link: "https://mighty-inlet-79534.herokuapp.com/",
             git: "https://github.com/LAKEHALKhaled/personal-strategic-planner",
@@ -18,8 +18,8 @@ const [currentSlide, setCurrentSlide] = useState(0)
          {
         id: "2",
         // icon: {GitHubIcon},
-        title: "MERN Restaurant Website (5%)",
-        desc: "A template website, can be easy changed to any kind of E-comerce restaurant advanced website" ,
+        title: "E-comerce MERN Website (50%)",
+        desc: "A website for a small business, can be easy changed to any kind of E-comerce advanced website" ,
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34qSmH7p3itrhdczeCXBko-etbvkjyHmG1Q&usqp=CAU",
         },
             
